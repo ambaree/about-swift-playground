@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='osx' display-mode='raw' last-migration='0800'>
+    <pages>
+        <page name='Constants and Variables'/>
+        <page name='Control Flow'/>
+        <page name='Optionals'/>
+        <page name='Functions'/>
+        <page name='Structures'/>
+        <page name='Enumerations'/>
+        <page name='Classes'/>
+        <page name='Protocols'/>
+        <page name='Operators'/>
+        <page name='Collections'/>
+        <page name='Strings'/>
+        <page name='Created by'/>
+    </pages>
+</playground>

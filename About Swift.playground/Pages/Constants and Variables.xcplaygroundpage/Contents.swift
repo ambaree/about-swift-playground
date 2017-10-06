@@ -1,0 +1,67 @@
+//: [Previous](@previous)
+
+/*:
+ # Constants and Variables
+ */
+
+/*:
+ ## Constants and Variables Keywords
+ * let - constant.
+ * var - variable.
+ */
+
+/*:
+ ## Naming Constants and Variables
+ Constant and variable names can contain almost any character, including Unicode characters.
+ 
+ Constant and variable names cannot:
+ * begin with a number.
+ * contain whitespace characters.
+ * contain mathematical symbols.
+ * contain private-use (or invalid) Unicode code points.
+ 
+ */
+
+/*:
+ ## Type Annotations
+ 
+ You can provide a type annotation when you declare a constant or variable, to be clear about the kind of values the constant or variable can store.
+ */
+var variableString: String
+variableString = "Hello"
+variableString = "Ciao"
+variableString = "Privet"
+
+let constantInt: Int // Declaration
+constantInt = 0      // Initialization
+/*:
+ ## Type Inference
+ Type inference enables a compiler to deduce the type of a particular expression automatically when it compiles your code, simply by examining the values you provide.
+ */
+let pi = 3.14159        // Double
+let booleanValue = true // Bool
+//: If you combine integer and floating-point literals in an expression, a type of Double will be inferred from the context.
+let anotherPi = 3 + 0.14159
+/*:
+ - experiment:
+ Press the option key and click on a variable or constant name to see the type inferred.
+ */
+
+/*:
+ ## Type Safety
+ 
+ Swift is a type-safe language, which means the language helps you to be clear about the types of values your code can work with.
+ */
+
+//: Floating-point values are always truncated when used to initialize a new integer value. This means that 4.75 becomes 4, and -3.9 becomes -3.
+let integerPi: Int = Int(pi)
+//: ## Declare Multiple Constants/Variables on a Single Line
+let x = 0.0, y = 0.0, z = 0.0
+var red: Int, green, blue: Double
+
+/*
+ ## Challenge:
+    1. Create a string constant of your name
+    2. Create an integer variable of your age
+    3. Declare multiple variables of your birthday on a single line (day, month, year)
+*/
